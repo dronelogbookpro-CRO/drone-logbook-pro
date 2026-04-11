@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Drone Logbook Pro je osobni dnevnik letenja za pilote dronova: offline rad, pravila za 28 država i privatna pohrana na vlastitom Google Driveu.">
+    <meta name="description" content="Drone Logbook Pro je osobni dnevnik letenja za pilote dronova: offline rad, pravila za 36 država i privatna pohrana na vlastitom Google Driveu.">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#121212">
     <link rel="canonical" href="https://zrina1980-superuser.github.io/drone-logbook-pro/">
@@ -14,12 +14,23 @@
     <meta property="og:site_name" content="Drone Logbook Pro">
     <meta property="fb:app_id" content="1439374824024639">
     <meta property="og:title" content="Drone Logbook Pro | Tvoj osobni dnevnik letenja">
-    <meta property="og:description" content="Letite legalno i bez stresa. Offline dnevnik letenja, pravila za 28 država i puna kontrola podataka na vašem Google Driveu.">
+    <meta property="og:description" content="Letite legalno i bez stresa. Offline dnevnik letenja, pravila za 36 država i puna kontrola podataka na vašem Google Driveu.">
     <meta property="og:url" content="https://zrina1980-superuser.github.io/drone-logbook-pro/">
     <meta property="og:image" content="https://zrina1980-superuser.github.io/drone-logbook-pro/og-image.png">
+    <meta property="og:image:secure_url" content="https://zrina1980-superuser.github.io/drone-logbook-pro/og-image.png">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Drone Logbook Pro landing page preview">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Drone Logbook Pro | Tvoj osobni dnevnik letenja">
+    <meta name="twitter:description" content="Offline dnevnik letenja za pilote dronova s pravilima za 36 država.">
+    <meta name="twitter:image" content="https://zrina1980-superuser.github.io/drone-logbook-pro/og-image.png">
+    <meta name="twitter:image:alt" content="Drone Logbook Pro landing page preview">
+
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="shortcut icon" type="image/svg+xml" href="favicon.svg">
 
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -45,7 +56,7 @@
         </h1>
         <p class="text-lg md:text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
             Prva i jedina aplikacija za domaće dronaše koja živi isključivo na vašem Google Driveu.
-            Bilježite letove i servise jednim klikom, radite u potpunosti offline i nosite zakone za 28 država u džepu!
+            Bilježite letove jednim klikom, radite u potpunosti offline i nosite zakone za čak 36 država u džepu!
         </p>
         <a href="#kupi" class="bg-primary text-black font-bold py-4 px-8 rounded-full text-lg hover:bg-green-500 transition duration-300 shadow-[0_0_15px_rgba(0,230,118,0.5)] inline-block">
             Preuzmi svoj Pro Kit (Early Bird Akcija)
@@ -53,14 +64,26 @@
     </header>
 
     <section class="container mx-auto px-6 py-10">
-        <h2 class="text-3xl font-bold text-center text-white mb-12">Zavirite u aplikaciju</h2>
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-6 justify-items-center">
-            <img src="pocetni-sa-linkovima-na-dokumente.jpeg" alt="Početni zaslon i linkovi na dokumente" class="rounded-2xl border-2 border-gray-700 shadow-xl max-h-[450px] object-cover hover:border-primary transition">
-            <img src="unos-novog-leta.jpeg" alt="Unos novog leta" class="rounded-2xl border-2 border-gray-700 shadow-xl max-h-[450px] object-cover hover:border-primary transition">
-            <img src="log-svih-letova.jpeg" alt="Log svih letova" class="rounded-2xl border-2 border-gray-700 shadow-xl max-h-[450px] object-cover hover:border-primary transition">
-            <img src="unos-servisiranja.jpeg" alt="Unos servisiranja" class="rounded-2xl border-2 border-gray-700 shadow-xl max-h-[450px] object-cover hover:border-primary transition">
-            <img src="trazenje-pravila-drzava.jpeg" alt="Traženje pravila država" class="rounded-2xl border-2 border-gray-700 shadow-xl max-h-[450px] object-cover hover:border-primary transition">
-            <img src="prikaz-odabrane-drzave.jpeg" alt="Prikaz odabrane države" class="rounded-2xl border-2 border-gray-700 shadow-xl max-h-[450px] object-cover hover:border-primary transition">
+        <h2 class="text-3xl font-bold text-center text-white mb-8">Zavirite ispod haube</h2>
+        <div class="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
+            <button type="button" data-full="pocetni-sa-linkovima-na-dokumente.jpeg" data-caption="Početni zaslon s dokumentima" class="group overflow-hidden rounded-xl border border-gray-700 hover:border-primary transition">
+                <img src="pocetni-sa-linkovima-na-dokumente.jpeg" alt="Početni zaslon s dokumentima" class="h-28 md:h-40 w-full object-cover group-hover:scale-[1.03] transition duration-300">
+            </button>
+            <button type="button" data-full="unos-novog-leta.jpeg" data-caption="Brzi unos novog leta" class="group overflow-hidden rounded-xl border border-gray-700 hover:border-primary transition">
+                <img src="unos-novog-leta.jpeg" alt="Brzi unos novog leta" class="h-28 md:h-40 w-full object-cover group-hover:scale-[1.03] transition duration-300">
+            </button>
+            <button type="button" data-full="log-svih-letova.jpeg" data-caption="Digitalni logbook svih letova" class="group overflow-hidden rounded-xl border border-gray-700 hover:border-primary transition">
+                <img src="log-svih-letova.jpeg" alt="Digitalni logbook svih letova" class="h-28 md:h-40 w-full object-cover group-hover:scale-[1.03] transition duration-300">
+            </button>
+            <button type="button" data-full="unos-servisiranja.jpeg" data-caption="Evidencija servisa" class="group overflow-hidden rounded-xl border border-gray-700 hover:border-primary transition">
+                <img src="unos-servisiranja.jpeg" alt="Evidencija servisa" class="h-28 md:h-40 w-full object-cover group-hover:scale-[1.03] transition duration-300">
+            </button>
+            <button type="button" data-full="trazenje-pravila-drzava.jpeg" data-caption="Baza i pretraga zakona" class="group overflow-hidden rounded-xl border border-gray-700 hover:border-primary transition">
+                <img src="trazenje-pravila-drzava.jpeg" alt="Baza i pretraga zakona" class="h-28 md:h-40 w-full object-cover group-hover:scale-[1.03] transition duration-300">
+            </button>
+            <button type="button" data-full="prikaz-odabrane-drzave.jpeg" data-caption="Detaljna pravila za svaku državu" class="group overflow-hidden rounded-xl border border-gray-700 hover:border-primary transition">
+                <img src="prikaz-odabrane-drzave.jpeg" alt="Detaljna pravila za svaku državu" class="h-28 md:h-40 w-full object-cover group-hover:scale-[1.03] transition duration-300">
+            </button>
         </div>
     </section>
 
@@ -69,17 +92,17 @@
             <div class="bg-surface p-8 rounded-2xl border border-gray-800">
                 <div class="text-4xl mb-4">📡</div>
                 <h3 class="text-xl font-bold text-white mb-3">Pametni Offline Radar</h3>
-                <p class="text-gray-400">Letite negdje gdje nema signala? Nema problema. Sustav uredno sprema vaše letove i servise u memoriju mobitela te ih automatski prebacuje u bazu čim ulovite mrežu.</p>
+                <p class="text-gray-400">Letite na Velebitu gdje nema signala? Nema problema. Aplikacija uredno sprema sve letove i servise u memoriju mobitela te ih automatski prebacuje u bazu čim ulovite 4G mrežu.</p>
             </div>
             <div class="bg-surface p-8 rounded-2xl border border-gray-800 border-l-4 border-l-primary">
                 <div class="text-4xl mb-4">🌍</div>
-                <h3 class="text-xl font-bold text-white mb-3">Pravila za 28 Država</h3>
-                <p class="text-gray-400">Pametna tražilica s provjerenim direktnim linkovima na portale, aplikacije i zakone. Od Hrvatske, BiH, Srbije, preko EU, sve do Tajlanda i Japana. Zaboravite na kazne.</p>
+                <h3 class="text-xl font-bold text-white mb-3">Baza s 36 Država</h3>
+                <p class="text-gray-400">Pametna tražilica s provjerenim direktnim linkovima na nacionalne portale, EASA regulative i aplikacije. Od Hrvatske, Bosne i Srbije, preko cijele EU, pa sve do Tajlanda. Zaboravite na ogromne kazne!</p>
             </div>
             <div class="bg-surface p-8 rounded-2xl border border-gray-800">
                 <div class="text-4xl mb-4">🔒</div>
                 <h3 class="text-xl font-bold text-white mb-3">100% Vaša Privatnost</h3>
-                <p class="text-gray-400">Ovo nije tuđa aplikacija s mjesečnim pretplatama. Cijeli sustav (baza u Google Sheetsu i aplikacija) instalira se i vrti isključivo na vašem osobnom Google računu!</p>
+                <p class="text-gray-400">Ovo nije tuđa aplikacija. Nema mjesečnih pretplata i mutnih servera. Cijeli sustav (baza u Google Sheetsu i web aplikacija) instalira se i vrti isključivo na vašem osobnom Google računu!</p>
             </div>
         </div>
     </section>
@@ -90,15 +113,15 @@
             <div class="grid md:grid-cols-3 gap-8 text-left">
                 <div class="p-6">
                     <span class="text-primary font-bold text-xl mb-2 block">Korak 1: Preuzimanje</span>
-                    <p class="text-gray-400">Nakon uplate, platforma vam na e-mail istog trena automatski šalje ZIP datoteku s aplikacijom i priručnikom.</p>
+                    <p class="text-gray-400">Odmah nakon jednokratne uplate, sustav vam automatski šalje ZIP datoteku s vašom aplikacijom i priručnikom.</p>
                 </div>
                 <div class="p-6">
                     <span class="text-primary font-bold text-xl mb-2 block">Korak 2: Instalacija koda</span>
-                    <p class="text-gray-400">Pratite kratki video tutorijal (3 min). Samo iskopirate gotove datoteke u svoj besplatni Google Apps Script račun.</p>
+                    <p class="text-gray-400">Pratite kratki video tutorijal (traje 3 minute). Samo iskopirate dobivene datoteke u svoj besplatni Google Drive (Apps Script).</p>
                 </div>
                 <div class="p-6">
                     <span class="text-primary font-bold text-xl mb-2 block">Korak 3: Postavke pilota</span>
-                    <p class="text-gray-400">Dodajte aplikaciju na početni zaslon svog mobitela, unesite svoj Pilot ID, registraciju drona i spremni ste!</p>
+                    <p class="text-gray-400">Dodajte aplikaciju na početni zaslon svog mobitela, unesite svoj vlastiti Pilot ID i serijski broj drona - i spremni ste za legalan let!</p>
                 </div>
             </div>
         </div>
@@ -108,32 +131,82 @@
         <div class="bg-surface border border-primary p-10 rounded-3xl max-w-3xl mx-auto shadow-[0_0_30px_rgba(0,230,118,0.1)]">
             <h2 class="text-3xl font-bold text-white mb-2">Drone Logbook Pro Kit</h2>
 
-            <div class="flex items-center justify-center gap-4 mb-6">
+            <div class="flex items-center justify-center gap-4 mb-6 mt-4">
                 <span class="text-gray-500 line-through text-2xl">30,00 €</span>
-                <span class="text-4xl text-primary font-extrabold shadow-primary">14,90 €</span>
+                <span class="text-4xl text-primary font-extrabold shadow-primary">15,00 €</span>
             </div>
-            <p class="text-primary font-bold mb-6 tracking-wider uppercase">🔥 Early Bird Akcija 🔥</p>
+            <p class="text-primary font-bold mb-6 tracking-wider uppercase">🔥 Early Bird Akcija - limitirano vrijeme 🔥</p>
 
-            <p class="text-gray-400 mb-8">U paketu dobivate potpuni web sustav (frontend + backend skripte), ugrađenu bazu za 28 zemalja, <i>offline</i> sinkronizaciju i detaljne video upute za instalaciju.</p>
+            <p class="text-gray-400 mb-8">U paketu dobivate gotove skripte (baza, frontend, backend), predefiniranu bazu zakona za čak 36 država i detaljan video vodič za instalaciju.</p>
 
             <div class="flex flex-col md:flex-row justify-center gap-4">
-                <a href="#tvoj-kofi-link" class="bg-primary text-black font-bold py-3 px-6 rounded-lg hover:bg-green-500 transition shadow-lg text-center flex items-center justify-center gap-2">
-                    ☕ Kupi putem Ko-fi (Kartica)
+                <a href="#tvoj-revolut-link" class="bg-white text-black font-bold py-3 px-6 rounded-lg hover:bg-gray-200 transition">
+                    💳 Plaćanje preko Revoluta
                 </a>
-                <a href="#tvoj-bmc-link" class="bg-yellow-400 text-black font-bold py-3 px-6 rounded-lg hover:bg-yellow-500 transition shadow-lg text-center flex items-center justify-center gap-2">
-                    🍺 Buy Me A Coffee (Kartica)
-                </a>
-                <a href="#tvoj-revolut-link" class="bg-white text-black font-bold py-3 px-6 rounded-lg hover:bg-gray-200 transition shadow-lg text-center flex items-center justify-center gap-2">
-                    💳 Plati preko Revoluta
+                <a href="#tvoj-kofi-link" class="bg-primary text-black font-bold py-3 px-6 rounded-lg hover:bg-green-500 transition">
+                    ☕ Plaćanje karticom (Ko-fi)
                 </a>
             </div>
-            <p class="text-xs text-gray-500 mt-6">* Aplikacija zahtijeva isključivo besplatan Google račun (@gmail.com). Nema nikakvih dodatnih ni skrivenih troškova.</p>
+            <p class="text-sm text-gray-500 mt-6">* Aplikacija zahtijeva besplatan Google račun (@gmail.com). Nema nikakvih dodatnih ni skrivenih troškova.</p>
         </div>
     </section>
 
     <footer class="text-center py-8 text-gray-600 text-sm border-t border-gray-800">
-        <p>Projekt razvio letač za letače. Letite legalno, letite odgovorno.</p>
+        <p>Projekt razvijen od strane pilota za pilote. Letite odgovorno.</p>
     </footer>
+
+    <div id="lightbox" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/85 p-4">
+        <button id="lightboxClose" type="button" class="absolute top-4 right-4 text-white text-4xl leading-none hover:text-primary" aria-label="Zatvori pregled">&times;</button>
+        <div class="max-w-5xl w-full text-center">
+            <img id="lightboxImage" src="" alt="" class="max-h-[82vh] mx-auto rounded-2xl border border-gray-700 shadow-2xl">
+            <p id="lightboxCaption" class="text-gray-300 mt-4 text-sm md:text-base"></p>
+        </div>
+    </div>
+
+    <script>
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImage = document.getElementById('lightboxImage');
+        const lightboxCaption = document.getElementById('lightboxCaption');
+        const lightboxClose = document.getElementById('lightboxClose');
+        const thumbnails = document.querySelectorAll('[data-full]');
+
+        const openLightbox = (src, caption) => {
+            lightboxImage.src = src;
+            lightboxImage.alt = caption;
+            lightboxCaption.textContent = caption;
+            lightbox.classList.remove('hidden');
+            lightbox.classList.add('flex');
+            document.body.classList.add('overflow-hidden');
+        };
+
+        const closeLightbox = () => {
+            lightbox.classList.add('hidden');
+            lightbox.classList.remove('flex');
+            lightboxImage.src = '';
+            lightboxImage.alt = '';
+            document.body.classList.remove('overflow-hidden');
+        };
+
+        thumbnails.forEach((thumb) => {
+            thumb.addEventListener('click', () => {
+                openLightbox(thumb.dataset.full, thumb.dataset.caption || 'Pregled slike');
+            });
+        });
+
+        lightboxClose.addEventListener('click', closeLightbox);
+
+        lightbox.addEventListener('click', (event) => {
+            if (event.target === lightbox) {
+                closeLightbox();
+            }
+        });
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape' && !lightbox.classList.contains('hidden')) {
+                closeLightbox();
+            }
+        });
+    </script>
 
 </body>
 </html>
