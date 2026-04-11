@@ -65,25 +65,50 @@
 
     <section class="container mx-auto px-6 py-10">
         <h2 class="text-3xl font-bold text-center text-white mb-8">Zavirite ispod haube</h2>
-        <div class="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
-            <button type="button" data-full="pocetni-sa-linkovima-na-dokumente.jpeg" data-caption="Početni zaslon s dokumentima" class="group overflow-hidden rounded-xl border border-gray-700 hover:border-primary transition">
-                <img src="pocetni-sa-linkovima-na-dokumente.jpeg" alt="Početni zaslon s dokumentima" class="h-28 md:h-40 w-full object-cover group-hover:scale-[1.03] transition duration-300">
-            </button>
-            <button type="button" data-full="unos-novog-leta.jpeg" data-caption="Brzi unos novog leta" class="group overflow-hidden rounded-xl border border-gray-700 hover:border-primary transition">
-                <img src="unos-novog-leta.jpeg" alt="Brzi unos novog leta" class="h-28 md:h-40 w-full object-cover group-hover:scale-[1.03] transition duration-300">
-            </button>
-            <button type="button" data-full="log-svih-letova.jpeg" data-caption="Digitalni logbook svih letova" class="group overflow-hidden rounded-xl border border-gray-700 hover:border-primary transition">
-                <img src="log-svih-letova.jpeg" alt="Digitalni logbook svih letova" class="h-28 md:h-40 w-full object-cover group-hover:scale-[1.03] transition duration-300">
-            </button>
-            <button type="button" data-full="unos-servisiranja.jpeg" data-caption="Evidencija servisa" class="group overflow-hidden rounded-xl border border-gray-700 hover:border-primary transition">
-                <img src="unos-servisiranja.jpeg" alt="Evidencija servisa" class="h-28 md:h-40 w-full object-cover group-hover:scale-[1.03] transition duration-300">
-            </button>
-            <button type="button" data-full="trazenje-pravila-drzava.jpeg" data-caption="Baza i pretraga zakona" class="group overflow-hidden rounded-xl border border-gray-700 hover:border-primary transition">
-                <img src="trazenje-pravila-drzava.jpeg" alt="Baza i pretraga zakona" class="h-28 md:h-40 w-full object-cover group-hover:scale-[1.03] transition duration-300">
-            </button>
-            <button type="button" data-full="prikaz-odabrane-drzave.jpeg" data-caption="Detaljna pravila za svaku državu" class="group overflow-hidden rounded-xl border border-gray-700 hover:border-primary transition">
-                <img src="prikaz-odabrane-drzave.jpeg" alt="Detaljna pravila za svaku državu" class="h-28 md:h-40 w-full object-cover group-hover:scale-[1.03] transition duration-300">
-            </button>
+        <div class="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+
+            <div class="flex flex-col items-center">
+                <button type="button" data-full="pocetni-sa-linkovima-na-dokumente.jpeg" data-caption="Početni zaslon s dokumentima" class="gallery-btn group overflow-hidden rounded-xl border border-gray-700 hover:border-primary transition w-full aspect-[9/16] shadow-lg">
+                    <img src="pocetni-sa-linkovima-na-dokumente.jpeg" alt="Početni zaslon" class="w-full h-full object-cover group-hover:scale-[1.03] transition duration-300">
+                </button>
+                <p class="text-xs md:text-sm text-gray-400 mt-3 font-semibold text-center">Početni zaslon s linkovima</p>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <button type="button" data-full="unos-novog-leta.jpeg" data-caption="Brzi unos novog leta" class="gallery-btn group overflow-hidden rounded-xl border border-gray-700 hover:border-primary transition w-full aspect-[9/16] shadow-lg">
+                    <img src="unos-novog-leta.jpeg" alt="Unos leta" class="w-full h-full object-cover group-hover:scale-[1.03] transition duration-300">
+                </button>
+                <p class="text-xs md:text-sm text-gray-400 mt-3 font-semibold text-center">Brzi unos novog leta</p>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <button type="button" data-full="log-svih-letova.jpeg" data-caption="Digitalni logbook svih letova" class="gallery-btn group overflow-hidden rounded-xl border border-gray-700 hover:border-primary transition w-full aspect-[9/16] shadow-lg">
+                    <img src="log-svih-letova.jpeg" alt="Povijest letova" class="w-full h-full object-cover group-hover:scale-[1.03] transition duration-300">
+                </button>
+                <p class="text-xs md:text-sm text-gray-400 mt-3 font-semibold text-center">Digitalni logbook</p>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <button type="button" data-full="unos-servisiranja.jpeg" data-caption="Evidencija servisa" class="gallery-btn group overflow-hidden rounded-xl border border-gray-700 hover:border-primary transition w-full aspect-[9/16] shadow-lg">
+                    <img src="unos-servisiranja.jpeg" alt="Servis" class="w-full h-full object-cover group-hover:scale-[1.03] transition duration-300">
+                </button>
+                <p class="text-xs md:text-sm text-gray-400 mt-3 font-semibold text-center">Evidencija servisa</p>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <button type="button" data-full="trazenje-pravila-drzava.jpeg" data-caption="Baza i pretraga zakona" class="gallery-btn group overflow-hidden rounded-xl border border-gray-700 hover:border-primary transition w-full aspect-[9/16] shadow-lg">
+                    <img src="trazenje-pravila-drzava.jpeg" alt="Pravila država" class="w-full h-full object-cover group-hover:scale-[1.03] transition duration-300">
+                </button>
+                <p class="text-xs md:text-sm text-gray-400 mt-3 font-semibold text-center">Pretraga baze država</p>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <button type="button" data-full="prikaz-odabrane-drzave.jpeg" data-caption="Detaljna pravila za svaku državu" class="gallery-btn group overflow-hidden rounded-xl border border-gray-700 hover:border-primary transition w-full aspect-[9/16] shadow-lg">
+                    <img src="prikaz-odabrane-drzave.jpeg" alt="Prikaz države" class="w-full h-full object-cover group-hover:scale-[1.03] transition duration-300">
+                </button>
+                <p class="text-xs md:text-sm text-gray-400 mt-3 font-semibold text-center">Lokalna pravila i limiti</p>
+            </div>
+
         </div>
     </section>
 
@@ -128,7 +153,7 @@
     </section>
 
     <section id="kupi" class="container mx-auto px-6 py-20 text-center">
-        <div class="bg-surface border border-primary p-10 rounded-3xl max-w-3xl mx-auto shadow-[0_0_30px_rgba(0,230,118,0.1)]">
+        <div class="bg-surface border border-primary p-10 rounded-3xl max-w-4xl mx-auto shadow-[0_0_30px_rgba(0,230,118,0.1)]">
             <h2 class="text-3xl font-bold text-white mb-2">Drone Logbook Pro Kit</h2>
 
             <div class="flex items-center justify-center gap-4 mb-6 mt-4">
@@ -137,14 +162,19 @@
             </div>
             <p class="text-primary font-bold mb-6 tracking-wider uppercase">🔥 Early Bird Akcija - limitirano vrijeme 🔥</p>
 
-            <p class="text-gray-400 mb-8">U paketu dobivate gotove skripte (baza, frontend, backend), predefiniranu bazu zakona za čak 36 država i detaljan video vodič za instalaciju.</p>
+            <p class="text-gray-400 mb-8 max-w-2xl mx-auto">U paketu dobivate gotove skripte (baza, frontend, backend), predefiniranu bazu zakona za čak 36 država i detaljan video vodič za instalaciju.</p>
 
-            <div class="flex flex-col md:flex-row justify-center gap-4">
-                <a href="#tvoj-revolut-link" class="bg-white text-black font-bold py-3 px-6 rounded-lg hover:bg-gray-200 transition">
-                    💳 Plaćanje preko Revoluta
-                </a>
-                <a href="#tvoj-kofi-link" class="bg-primary text-black font-bold py-3 px-6 rounded-lg hover:bg-green-500 transition">
+            <div class="flex flex-col lg:flex-row justify-center gap-4">
+                <a href="#tvoj-kofi-link" target="_blank" class="bg-primary text-black font-bold py-3 px-6 rounded-lg hover:bg-green-500 transition shadow-lg text-center flex items-center justify-center gap-2">
                     ☕ Plaćanje karticom (Ko-fi)
+                </a>
+
+                <a href="#tvoj-bmc-link" target="_blank" class="bg-yellow-400 text-black font-bold py-3 px-6 rounded-lg hover:bg-yellow-500 transition shadow-lg text-center flex items-center justify-center gap-2">
+                    🍺 Buy Me A Coffee (Kartica)
+                </a>
+
+                <a href="#tvoj-revolut-link" target="_blank" class="bg-white text-black font-bold py-3 px-6 rounded-lg hover:bg-gray-200 transition shadow-lg text-center flex items-center justify-center gap-2">
+                    💳 Plaćanje preko Revoluta
                 </a>
             </div>
             <p class="text-sm text-gray-500 mt-6">* Aplikacija zahtijeva besplatan Google račun (@gmail.com). Nema nikakvih dodatnih ni skrivenih troškova.</p>
@@ -155,12 +185,17 @@
         <p>Projekt razvijen od strane pilota za pilote. Letite odgovorno.</p>
     </footer>
 
-    <div id="lightbox" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/85 p-4">
-        <button id="lightboxClose" type="button" class="absolute top-4 right-4 text-white text-4xl leading-none hover:text-primary" aria-label="Zatvori pregled">&times;</button>
-        <div class="max-w-5xl w-full text-center">
-            <img id="lightboxImage" src="" alt="" class="max-h-[82vh] mx-auto rounded-2xl border border-gray-700 shadow-2xl">
-            <p id="lightboxCaption" class="text-gray-300 mt-4 text-sm md:text-base"></p>
+    <div id="lightbox" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/95 p-4 select-none">
+        <button id="lightboxClose" type="button" class="absolute top-4 right-4 z-50 text-white text-5xl leading-none hover:text-primary transition" aria-label="Zatvori">&times;</button>
+
+        <button id="lightboxPrev" type="button" class="absolute left-2 md:left-8 top-1/2 -translate-y-1/2 text-white text-4xl hover:text-primary z-50 p-4 transition">&#10094;</button>
+
+        <div class="max-w-md w-full text-center relative flex flex-col items-center">
+            <img id="lightboxImage" src="" alt="" class="max-h-[80vh] w-auto mx-auto rounded-2xl border border-gray-700 shadow-2xl transition-opacity duration-300">
+            <p id="lightboxCaption" class="text-white font-bold mt-6 text-base md:text-lg"></p>
         </div>
+
+        <button id="lightboxNext" type="button" class="absolute right-2 md:right-8 top-1/2 -translate-y-1/2 text-white text-4xl hover:text-primary z-50 p-4 transition">&#10095;</button>
     </div>
 
     <script>
@@ -168,31 +203,58 @@
         const lightboxImage = document.getElementById('lightboxImage');
         const lightboxCaption = document.getElementById('lightboxCaption');
         const lightboxClose = document.getElementById('lightboxClose');
-        const thumbnails = document.querySelectorAll('[data-full]');
+        const btnPrev = document.getElementById('lightboxPrev');
+        const btnNext = document.getElementById('lightboxNext');
+        const galleryBtns = document.querySelectorAll('.gallery-btn');
 
-        const openLightbox = (src, caption) => {
-            lightboxImage.src = src;
-            lightboxImage.alt = caption;
-            lightboxCaption.textContent = caption;
-            lightbox.classList.remove('hidden');
-            lightbox.classList.add('flex');
-            document.body.classList.add('overflow-hidden');
+        let currentIndex = 0;
+        const imagesData = [];
+
+        galleryBtns.forEach((btn, index) => {
+            imagesData.push({
+                src: btn.dataset.full,
+                caption: btn.dataset.caption
+            });
+
+            btn.addEventListener('click', () => {
+                currentIndex = index;
+                updateLightbox();
+                lightbox.classList.remove('hidden');
+                lightbox.classList.add('flex');
+                document.body.classList.add('overflow-hidden');
+            });
+        });
+
+        const updateLightbox = () => {
+            lightboxImage.style.opacity = 0;
+            setTimeout(() => {
+                lightboxImage.src = imagesData[currentIndex].src;
+                lightboxImage.alt = imagesData[currentIndex].caption;
+                lightboxCaption.textContent = imagesData[currentIndex].caption;
+                lightboxImage.style.opacity = 1;
+            }, 150);
         };
 
         const closeLightbox = () => {
             lightbox.classList.add('hidden');
             lightbox.classList.remove('flex');
-            lightboxImage.src = '';
-            lightboxImage.alt = '';
             document.body.classList.remove('overflow-hidden');
         };
 
-        thumbnails.forEach((thumb) => {
-            thumb.addEventListener('click', () => {
-                openLightbox(thumb.dataset.full, thumb.dataset.caption || 'Pregled slike');
-            });
-        });
+        const prevImage = (e) => {
+            if (e) e.stopPropagation();
+            currentIndex = (currentIndex > 0) ? currentIndex - 1 : imagesData.length - 1;
+            updateLightbox();
+        };
 
+        const nextImage = (e) => {
+            if (e) e.stopPropagation();
+            currentIndex = (currentIndex < imagesData.length - 1) ? currentIndex + 1 : 0;
+            updateLightbox();
+        };
+
+        btnPrev.addEventListener('click', prevImage);
+        btnNext.addEventListener('click', nextImage);
         lightboxClose.addEventListener('click', closeLightbox);
 
         lightbox.addEventListener('click', (event) => {
@@ -202,10 +264,29 @@
         });
 
         document.addEventListener('keydown', (event) => {
-            if (event.key === 'Escape' && !lightbox.classList.contains('hidden')) {
-                closeLightbox();
-            }
+            if (lightbox.classList.contains('hidden')) return;
+            if (event.key === 'Escape') closeLightbox();
+            if (event.key === 'ArrowLeft') prevImage();
+            if (event.key === 'ArrowRight') nextImage();
         });
+
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        lightbox.addEventListener('touchstart', (e) => {
+            touchStartX = e.changedTouches[0].screenX;
+        }, { passive: true });
+
+        lightbox.addEventListener('touchend', (e) => {
+            touchEndX = e.changedTouches[0].screenX;
+            handleSwipe();
+        }, { passive: true });
+
+        const handleSwipe = () => {
+            const swipeThreshold = 50;
+            if (touchEndX < touchStartX - swipeThreshold) nextImage();
+            if (touchEndX > touchStartX + swipeThreshold) prevImage();
+        };
     </script>
 
 </body>
