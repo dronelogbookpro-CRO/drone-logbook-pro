@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="hr">
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TZW6J4L40B"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-TZW6J4L40B');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Drone Logbook Pro je osobni dnevnik letenja za pilote dronova: offline rad, pravila za 36 država i privatna pohrana na vlastitom Google Driveu.">
@@ -173,7 +180,7 @@
                 </div>
                 <div class="p-6">
                     <span class="text-primary font-bold text-xl mb-2 block">Korak 2: Pokretanje</span>
-                    <p class="text-gray-400">Pratite kratki video tutorijal (traje 3 minute) u kojem samo stisnete "Deploy" i dobijete svoj osobni link aplikacije.</p>
+                    <p class="text-gray-400">Pratite upute iz PDF-a kojeg ćete dobiti uz link aplikacije i nakon DEPLOY dobivate link svoje aplikacije. Video upute u pripremi.</p>
                 </div>
                 <div class="p-6">
                     <span class="text-primary font-bold text-xl mb-2 block">Korak 3: Postavke pilota</span>
@@ -203,15 +210,15 @@
             </div>
 
             <div class="flex flex-col lg:flex-row justify-center gap-4">
-                <a href="#tvoj-kofi-link" target="_blank" class="bg-primary text-black font-bold py-3 px-6 rounded-lg hover:bg-green-500 transition shadow-lg text-center flex items-center justify-center gap-2">
+                <a href="#tvoj-kofi-link" target="_blank" onclick="gtag('event', 'click_buy_button', { 'platform': 'Ko-fi' });" class="bg-primary text-black font-bold py-3 px-6 rounded-lg hover:bg-green-500 transition shadow-lg text-center flex items-center justify-center gap-2">
                     ☕ Plaćanje karticom (Ko-fi)
                 </a>
 
-                <a href="#tvoj-bmc-link" target="_blank" class="bg-yellow-400 text-black font-bold py-3 px-6 rounded-lg hover:bg-yellow-500 transition shadow-lg text-center flex items-center justify-center gap-2">
+                <a href="#tvoj-bmc-link" target="_blank" onclick="gtag('event', 'click_buy_button', { 'platform': 'Buy Me A Coffee' });" class="bg-yellow-400 text-black font-bold py-3 px-6 rounded-lg hover:bg-yellow-500 transition shadow-lg text-center flex items-center justify-center gap-2">
                     🍺 Buy Me A Coffee (Kartica)
                 </a>
 
-                <a href="#tvoj-revolut-link" target="_blank" class="bg-white text-black font-bold py-3 px-6 rounded-lg hover:bg-gray-200 transition shadow-lg text-center flex items-center justify-center gap-2">
+                <a href="#tvoj-revolut-link" target="_blank" onclick="gtag('event', 'click_buy_button', { 'platform': 'Revolut' });" class="bg-white text-black font-bold py-3 px-6 rounded-lg hover:bg-gray-200 transition shadow-lg text-center flex items-center justify-center gap-2">
                     💳 Plaćanje preko Revoluta
                 </a>
             </div>
