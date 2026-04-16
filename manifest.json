@@ -9,12 +9,12 @@
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "https://drive.google.com/thumbnail?id=1j_G0X-acCfp7AVDRTbVJx5h7YA637n5o&sz=w192",
+      "src": "https://dronelogbookpro-cro.github.io/drone-logbook-pro/logo.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "https://drive.google.com/thumbnail?id=1j_G0X-acCfp7AVDRTbVJx5h7YA637n5o&sz=w512",
+      "src": "https://dronelogbookpro-cro.github.io/drone-logbook-pro/logo.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
